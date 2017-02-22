@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <meta charset="UTF-8">
+    <title>rootEngine</title>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h2 class="logo"><span class="root">root</span>Engine</h2>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="support.html" class="active">SUPPORT</a></li>
+                <li><a href="quote.html">QUOTE</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="about" id="about">
+        <p class="text_column">Capture your data and put it to use.</p>
+        <p class="text_column">Big data analytics made user friendly.</p>
+        <p class="text_column">Navigate the maze of big data easily.</p>
+    </section>
+
+    <section class="form_main" id="form_main">
+        <h3>Submit a ticket for support</h3>
+        <p>Fill out the form and we will get back to you shortly.</p>
+        <form class="support_form" action="" method="post" name="support_form">
+            <ul>
+                <li>
+                    <span class="required">*Required Field</span>
+                </li>
+                <li>
+                    <label for="name">*Name:</label>
+                    <input type="text" name="name" placeholder="John Doe" required/>
+                </li>
+                <li>
+                    <label for="email">*Email:</label>
+                    <input type="email" name="email" placeholder="doe@example.com" required/>
+                </li>
+                <li>
+                    <label for="clientID">*Client ID:</label>
+                    <input type="number" name="clientID"/>
+                </li>
+                <li>
+                    <label for="country">*Country:</label>
+                    <input id="country" type="text" name="country" required/>
+                </li>
+                <ul id="autocompleteResults"></ul>
+                <li>
+                    <label for="message">*Message:</label>
+                    <textarea name="message" cols="35" rows="5"></textarea>
+                </li>
+                <li>
+                    <button class="submit" type="submit">Submit Form</button>
+                </li>
+            </ul>
+        </form>
+    </section>
+
+<footer>
+    <article class="footer_column">
+        <h3>ABOUT US</h3>
+        <img src="images/colorpages.jpeg" alt="colored pages" width="400" height="200" class="card"/>
+        <p><span class="root">root</span>Engine offers the most advanced big data analytics solutions.
+            Gathering, maintaining, organizing, optimizing and using  big data; it is what we do.</p>
+    </article>
+    <article class="footer_column">
+        <h3>SERVICES</h3>
+        <img src="images/harddrive.jpg" alt="Hard drive" width="400" height="200" class="card"/>
+        <p><span class="root">root</span>Engine provides turnkey solutions molded for your specific needs. Let data work for you.</p>
+    </article>
+</footer>
+
+    <div class="copyright">&copy;2017 - <strong><span class="root">root</span>Engine</strong>
+    </div>
+
+
+</div>
+
+<script src="scripts/script.js"></script>
+
+</body>
+</html>
